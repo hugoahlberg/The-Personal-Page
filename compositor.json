@@ -1,0 +1,89 @@
+{
+  "name": "hugoahlberg/The-Personal-Page",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "hm",
+  "branch": "master",
+  "style": {
+    "name": "Material",
+    "componentSet": {
+      "nav": "nav/DarkAbsoluteNav",
+      "header": "header/GradientHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Roboto, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "letterSpacing": "-0.01em"
+    },
+    "colors": {
+      "text": "#212121",
+      "background": "#fff",
+      "primary": "#2196f3",
+      "secondary": "#1565c0",
+      "highlight": "#ff4081",
+      "border": "#e0e0e0",
+      "muted": "#f5f5f5"
+    },
+    "layout": {
+      "centered": true,
+      "bannerHeight": "80vh",
+      "maxWidth": 896
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "http://weightshift.com/memo/the-personal-page",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/hugoahlberg/The-Personal-Page",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "The-Personal-Page",
+      "subhead": "This simple one-page website is a way for people to have a very quick and easy personable website that aggregates your activity and positions a simple logo, a portrait and some description text in a nicely-formatted manner. This is licensed under the MIT and GPL licenses. ",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "The-Personal-Page: This simple one-page website is a way for people to have a very quick and easy personable website that aggregates your activity and positions a simple logo, a portrait and some description text in a nicely-formatted manner. This is licensed under the MIT and GPL licenses. ",
+          "url": "http://weightshift.com/memo/the-personal-page"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "hugoahlberg",
+          "repo": "The-Personal-Page"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<p>=============================</p>\n<p>The Personal Page\nVersion 1.0\nJanuary 19, 2010\nCreated by Naz Hamid\nOriginal: www.nazhamid.com\nLicense: MIT/GPL</p>\n<p><a href=\"https://github.com/weightshift/The-Personal-Page\">https://github.com/weightshift/The-Personal-Page</a>\n<a href=\"http://weightshift.com/memo/the-personal-page\">http://weightshift.com/memo/the-personal-page</a></p>\n<p>The site makes use of the jQuery Backstretch plugin \nfrom Scott Robbin. Gracias.\n<a href=\"http://srobbin.com/blog/jquery-plugins/jquery-backstretch/\">http://srobbin.com/blog/jquery-plugins/jquery-backstretch/</a></p>\n<p>=============================</p>\n<p>This simple one-page website is a way for people to have a very quick and easy personable website that aggregates your activity and positions a simple logo, a portrait and some description text in a nicely-formatted manner. This is licensed under the MIT and GPL licenses. </p>\n<p>See the original: <a href=\"http://nazhamid.com\">http://nazhamid.com</a></p>\n<p>See inspired versions:\n<a href=\"http://me.frankchimero.com\">http://me.frankchimero.com</a>\n<a href=\"http://timlum.com\">http://timlum.com</a></p>\n<p>Usage is simple:</p>\n<p>1) You&apos;ll need to edit the index.html file with your own text.</p>\n<p>2) Upload your own logo in place of monogram.png. Your initials will likely not be NH, but if they are, be smart and use your own little monogram/logo. </p>\n<p>3) Upload your own portrait as the background. Don&apos;t impersonate me!</p>\n<p>4) Upload all the files, including the MIT and GPL licences. </p>\n<p>5) You can switch the position of the monogram and text as seen in timlum.com. </p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/hugoahlberg/The-Personal-Page",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/hugoahlberg",
+          "text": "hugoahlberg"
+        }
+      ]
+    }
+  ]
+}
